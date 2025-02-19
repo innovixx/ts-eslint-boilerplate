@@ -11,8 +11,7 @@
   "author": "Innovixx <info@innovixx.co.uk>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@innovixx/eslint-config": "3.0.0",
-    "eslint-plugin-node": "^11.0.0",
+    "@innovixx/eslint-config": "3.0.5",
     "tsx": "^4.19.1",
     "typescript": "^5.7.3"
   }
