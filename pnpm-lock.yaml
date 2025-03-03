@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@innovixx/eslint-config':
-        specifier: ^3.0.7
-        version: 3.0.7
+        specifier: ^3.0.9
+        version: 3.0.9
       tsx:
         specifier: ^4.19.1
         version: 4.19.2
@@ -253,8 +253,8 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
-  '@innovixx/eslint-config@3.0.7':
-    resolution: {integrity: sha512-zIR/cSKQrjnYO/ESdKpBGjiqR9WF4SWmexcFKcpmJ0xAsDEnYCsA/UHrE4mW6UKL1kLCZG3hd7F0FAnvxi0kog==, tarball: https://npm.pkg.github.com/download/@innovixx/eslint-config/3.0.7/67b0dc25831efb07fa1c93c162e7394f67e7ff27}
+  '@innovixx/eslint-config@3.0.9':
+    resolution: {integrity: sha512-rt+fEUcqJHHt3T1yWjYPeQoHApbnPDBpCCLFjU7n4XTZ1jd4lckzOtWlf3CJCgoDsjpQMefisx/5Lq2mpjBd+Q==, tarball: https://npm.pkg.github.com/download/@innovixx/eslint-config/3.0.9/aa467abea3842079e1da3b84ed2fd79ccdc5245a}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1742,7 +1742,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
-  '@innovixx/eslint-config@3.0.7':
+  '@innovixx/eslint-config@3.0.9':
     dependencies:
       '@eslint-react/eslint-plugin': 1.16.1(eslint@9.19.0)(typescript@5.7.3)
       '@eslint/js': 9.19.0

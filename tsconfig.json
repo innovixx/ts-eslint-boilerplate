@@ -13,6 +13,10 @@
     "inlineSources": true,
     "sourceRoot": "/"
   },
+  "include": [
+    "src",
+    "*.d.ts"
+  ],
   "exclude": [
     "node_modules",
   ]
