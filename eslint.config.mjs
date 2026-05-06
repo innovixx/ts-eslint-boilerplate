@@ -6,5 +6,18 @@ export default [
 	typescriptConfig,
 	{
 		files: ['**/*.{js,jsx,ts,tsx}'],
+		languageOptions: {
+			parserOptions: {
+				project: './tsconfig.eslint.json',
+			},
+		},
+	},
+	{
+		files: ['eslint.config.mjs'],
+		languageOptions: {
+			parserOptions: {
+				project: './tsconfig.eslint.json',
+			},
+		},
 	},
 ];
