@@ -16,7 +16,7 @@ export default [
 		files: ['eslint.config.mjs'],
 		languageOptions: {
 			parserOptions: {
-				project: './tsconfig.eslint.json',
+				project: null,
 			},
 		},
 	},
