@@ -3,21 +3,8 @@ import typescriptConfig from '@innovixx/eslint-config/config/configs/typescript/
 
 export default [
 	baseConfig,
-	typescriptConfig,
 	{
-		files: ['**/*.{js,jsx,ts,tsx}'],
-		languageOptions: {
-			parserOptions: {
-				project: './tsconfig.eslint.json',
-			},
-		},
-	},
-	{
-		files: ['eslint.config.mjs'],
-		languageOptions: {
-			parserOptions: {
-				project: null,
-			},
-		},
+		files: ['**/*.{ts,tsx}'],
+		...typescriptConfig,
 	},
 ];
