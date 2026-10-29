@@ -30,9 +30,9 @@ This project uses Husky and lint-staged to automatically run ESLint and TypeScri
 
 ## Usage
 
-Development: Use `pnpm run dev` to run your TypeScript code with hot-reload via tsx
-Build: Run `pnpm run build` to compile TypeScript to JavaScript in the dist/ directory
-Linting: Run `pnpm run lint` to check code quality and style with ESLint
+ - Development: Use `pnpm run dev` to run your TypeScript code with hot-reload via tsx
+ - Build: Run `pnpm run build` to compile TypeScript to JavaScript in the dist/ directory
+ - Linting: Run `pnpm run lint` to check code quality and style with ESLint
 
 ## License
 
