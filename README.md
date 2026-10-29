@@ -24,15 +24,15 @@ pnpm run dev
 
 3. Create new code in the src/ directory following the existing example patterns.
 
-## Pre-commit Checks
-
-This project uses Husky and lint-staged to automatically run ESLint and TypeScript type-checking on commit for staged files. No configuration needed—hooks are installed with `pnpm install`.
-
 ## Usage
 
  - Development: Use `pnpm run dev` to run your TypeScript code with hot-reload via tsx
  - Build: Run `pnpm run build` to compile TypeScript to JavaScript in the dist/ directory
  - Linting: Run `pnpm run lint` to check code quality and style with ESLint
+
+## Pre-commit Checks
+
+This project uses Husky and lint-staged to automatically run ESLint and TypeScript type-checking on commit for staged files. No configuration needed—hooks are installed with `pnpm install`.
 
 ## License
 
